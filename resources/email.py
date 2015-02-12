@@ -1,5 +1,5 @@
 from flask import request
-from flask.ext.restful import Resource, Api
+from flask.ext.restful import Resource
 from models.email import process_email, send_mail
 
 class Email(Resource):
